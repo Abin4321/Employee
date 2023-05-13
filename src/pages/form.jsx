@@ -4,8 +4,9 @@ function Form() {
   return (
     <form>
       <Container>
+      <h1 className='my-5'>Employee Form</h1>
         <div className="form-group">
-        <label htmlFor="exampleInputName">Field Name</label>
+        <label htmlFor="exampleInputName">Name</label>
         <input type="Name" className="form-control" id="exampleInputId" aria-describedby="emailHelp" placeholder="Enter Field Name" />
       </div>
        <div className="form-group">
@@ -19,10 +20,6 @@ function Form() {
       <div className="form-group">
         <label htmlFor="exampleInputSalary">Salary</label>
         <input type="salary" className="form-control" id="exampleInputSalary" placeholder="Enter Your Salary" />
-      </div>
-      <div className="form-check">
-        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-        <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
       </div>
       <button type="submit" className="btn btn-primary">Submit</button>
       </Container>
